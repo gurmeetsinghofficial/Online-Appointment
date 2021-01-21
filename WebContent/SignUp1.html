@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+	background-image : url("file:///Users/gurmeetsingh/Downloads/shutterstock_114802408-825x465@2x.jpg");	
+};
+</style>
+
+<link rel="stylesheet" type="text/css" href="ButtonCss.css"></link>
+</head>
+<body>
+<form action="signing1" method="post" enctype="multipart/form-data">
+<table>
+<th>
+<td>Enter details to signUp as Doctor(physio)</td>
+</th>
+<tr>
+<td>Upload your image</td>
+<td><input type="file" name="image" placeholder="Enter image" id="image" required></td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" placeholder="Enter name" id="name" required></td>
+</tr>
+<tr>
+<td>UserName</td>
+<td><input type="text" name="username" placeholder="Enter username" id="username" required></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="password" placeholder="Enter password" id="password" required></td>
+</tr>
+<tr>
+<td>Sex</td>
+<td><input type="text" name="sex" placeholder="Enter sex" id="sex" required></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="number" name="age" placeholder="Enter age"id="age" required></td>
+</tr>
+<tr>
+<td>salary</td>
+<td><input type="number" name="salary" placeholder="Enter salary" id="salary" required></td>
+</tr>
+<tr>
+<td>Enter your category</td>
+<td><select name="occupation">
+<option value="Orthopedics">Orthopedics</option>
+<option value="Cardiopulmonary sciences">Cardiopulmonary sciences</option>
+<option value="Neurological sciences">Neurological sciences</option>
+<option value="Musculoskeletal sciences">Musculoskeletal sciences</option>
+<option value="Sports science">Sports science</option>
+</select></td>
+</tr>
+<tr>
+<td><button class="btn" type="submit" value="on click">create account</button></td>
+</tr>
+<tr>
+<td><button class="btn" type=button value="on click" onClick="window.location.href='forgot2.html'">Forgot pass</button></td>
+</tr>
+<tr>
+<td><button class="btn" type="button" value="on click" onClick="window.location.href='login1.html'">back to login</button></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
